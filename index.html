@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Diary</title>
+    <link rel="stylesheet" href="./public/styles.css">
+</head>
+
+<body>
+    <div class="page-container">
+        <div class="list-container">
+            <div class="menu-container">
+                <h2>All the List</h2>
+                <button class="icon" id="add">
+                    <img src="./public/add.svg" class="icon-svg" alt="Add diary" style="filter: grayscale(100%);">
+                </button>
+            </div>
+            <hr>
+            <div id="diary-list">
+
+            </div>
+        </div>
+        <div class="modal-container hidden">
+            <div class="menu-modal-container">
+                <button class="icon" id="back">
+                    <img src="./public/back.svg" class="icon-svg" alt="Add diary" style="filter: grayscale(100%);">
+                </button>
+                <button class="add-button" id="submit">ADD</button>
+                <button class="save-button" id="save">UPDATE</button>
+            </div>
+            <div class="modal-content">
+                <h2 class="modal-title" id="date"></h2>
+                <form id="diary-form" class="diary-form">
+                    <textarea id="content" name="content" required></textarea>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js" type="module" defer></script>
+</body>
+
+</html>

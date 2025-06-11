@@ -1,0 +1,109 @@
+body {
+	background-image: url('wallpaper.jpg');
+	background-size: cover;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	margin: 20px;
+	color: rgb(168, 171, 171);
+	box-sizing: border-box;
+	overflow-y: scroll;
+}
+
+.list-container,
+.modal-container {
+	max-width: 800px;
+	margin: auto;
+	background-color: #5a4c54b1;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px #00000033;
+}
+
+.hidden {
+	display: none;
+}
+
+.menu-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.menu-modal-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.icon {
+	width: 32px;
+	height: 32px;
+	padding: 0;
+	cursor: pointer;
+	border: none;
+}
+
+.add-button,
+.save-button {
+	border: 1px solid #000;
+	filter: grayscale(100%);
+	color: #323131;
+	height: 32px;
+	padding: 5px 10px;
+	background-color: turquoise;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 13px;
+}
+
+.icon-svg {
+	display: block;
+	margin: 0;
+	width: 100%;
+	background-color: turquoise;
+}
+
+.diary-form {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+textarea {
+	height: 80vh;
+	width: 100%;
+	padding: 20px;
+	border: 1px solid #444;
+	border-radius: 5px;
+	background-color: #2c2c2c;
+	color: #c0b9b9;
+	line-height: 20pt;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 16px;
+	resize: vertical;
+	box-sizing: border-box;
+	box-shadow: 0 2px 4px #00000066;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+.item-diary {
+	background-color: #3a2f35;
+	border: 1px solid #444;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 10px;
+	box-shadow: 0 2px 4px #00000066;
+}
+
+.item-button {
+	background-color: #5a4c54;
+	border: none;
+	color: #9bc19f;
+	padding: 5px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+}

@@ -9,7 +9,7 @@ We have the main page which lists all the diary entries, and user can view the b
 What I learned is that Typescript is a superset of Javascript. It generally introduces typing constraints either the input and output. It also points out things that might be undefined or null. It allows the developper to anticipate any typing error in the future which strengthen the quality fo the software
 {Describe your purpose for writing this software.}
 
-[Diary App Demo Video](http://youtube.link.goes.here)
+[Diary App Demo Video](http://youtube.link.goes.here](https://youtu.be/ttjTfLghfp8)
 
 # Development Environment
 
@@ -17,7 +17,7 @@ To run this app: we need node.js and npm installed on your machine, the live ser
 
 Type `npm install` to install the dependencies, then run `npm run compile` to compile application from Typescript to Javascript.
 
-Then run live the index.htm with live server (right click then run live for live server).
+Then run live the index.html with live server (right click then run live for live server).
 
 
 # Useful Websites
